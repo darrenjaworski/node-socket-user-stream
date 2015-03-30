@@ -1,0 +1,10 @@
+{
+  "name": "twitter-socket-experiment",
+  "version": "0.0.1",
+  "description": "node + socket + twitter",
+  "dependencies": {
+    "express": "^4.12.3",
+    "socket.io": "^1.3.5",
+    "twitter": "^1.2.5"
+  }
+}
