@@ -11,7 +11,7 @@
   var socket = io();
 
   socket.on('tweet', function(tweet){
-      $('#stream').append($('<li>').text(tweet.user.name + ': ' + tweet.text));
+      $('#stream').prepend($('<li>').text(tweet.user.name + ': ' + tweet.text));
   })
 
 </script>
